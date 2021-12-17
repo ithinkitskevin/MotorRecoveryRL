@@ -1,3 +1,5 @@
+% TODO: Ensure the saturation limit is +1/-1
+
 % Positive saturation limit for excitatory cells (saturation limit is +1) 
 % Negative saturation limit for inhibitory cells (saturation limit is -1)
 function s = g_i(c_i, x_i)
