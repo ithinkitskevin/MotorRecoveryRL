@@ -1,4 +1,11 @@
 # Motor Recovery
+
+## Overview
+This repository contains the implementation of the reinforcement learning model described in "A computational model of use-dependent motor recovery following a stroke: optimizing corticospinal activations via reinforcement learning can explain residual capacity and other strength recovery dynamics" by David J Reinkensmeyer, Emmanuel Guigon, and Marc A Maier - [Paper Link](https://pubmed.ncbi.nlm.nih.gov/22391058/).
+
+## Model Description
+The model simulates use-dependent recovery of movement strength post-stroke by learning activations of residual corticospinal neurons. It employs a biologically plausible reinforcement learning algorithm, adjusting cell activation patterns based on generated limb force as a teaching signal to optimize synaptic weights.
+
 ## Reinforcement Learning
 1000 Residual CS Cells
 Best First             |  Stochastic Gradient Descent
